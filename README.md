@@ -1,2 +1,2 @@
-# calculator-react-app
-Calculator app
+# react-apps
+small react applications
