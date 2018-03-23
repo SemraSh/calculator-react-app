@@ -18,11 +18,14 @@ class App extends Component {
     return (
       <div className={`App `}>
         <div className={`${this.state.activeTemplate} gradient`}></div>
-        <select value={this.state.activeTemplate} onChange={this.changeTemplate}>
-          {templates.map((template, i) => (
-            <option key={`background-templates-${template}`} >{template}</option>
-          ))}
-        </select>
+        <div className='template-div'>
+          <p>SELECT TEMPLATE</p>
+          <select value={this.state.activeTemplate} onChange={this.changeTemplate}>
+            {templates.map((template, i) => (
+              <option key={`background-templates-${template}`} >{template}</option>
+            ))}
+          </select>
+        </div>
         <Calculator />
       </div>
     );

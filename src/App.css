@@ -1,3 +1,22 @@
+.template-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2em;
+}
+select{
+background: none;
+margin-left: 2em;
+height: 3em;
+width: 6em;
+}
+
+select:focus{
+outline: none;
+  }
 
 .gradient{
   margin-top: -1%;
@@ -6,6 +25,7 @@
   width: 100%;
   z-index: -1;
 }
+
 .App{
   font-size:16px;
   vertical-align: middle;
