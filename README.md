@@ -5,7 +5,7 @@ Calculator app with basic functionality.
 
 The following image shows the design of the app:
 <div>
-<img width="200" alt="screen shot 2018-03-20 at 12 13 31" src="https://user-images.githubusercontent.com/32770804/37854799-5a00e932-2ee4-11e8-9d42-7d3ebf7ccbb9.jpg">
+<img width="200" alt="screen shot 2018-03-20 at 12 13 31" src="https://user-images.githubusercontent.com/32770804/37855170-e3014b68-2ee5-11e8-92a7-4a748476d735.png">
 </div>
 
 ## Getting Started
